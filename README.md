@@ -119,11 +119,11 @@ Digital forensic evidence submitted in court proceedings must strictly adhere to
 
 | Investigator Clearance Portal | Audio Ingestion & Telemetry |
 | :---: | :---: |
-| ![Login Portal](frontend/assets/Login.png) <br/> *Authentication & Clearance Login Portal* | ![Ingest Audio Workbench](frontend/assets/ingest%20audio.png) <br/> *Multi-Engine Audio Ingestion & Analysis Dashboard* |
+| ![Login Portal](frontend/assets/Login_page.png) <br/> *Authentication & Clearance Login Portal* | ![Ingest Audio Workbench](frontend/assets/Ingest_dashboard.png) <br/> *Multi-Engine Audio Ingestion & Analysis Dashboard* |
 
 | Biometric Voice Verification | Official Application Icon |
 | :---: | :---: |
-| ![Biometric Speaker Verification](frontend/assets/Biometric%20speaker%20verification.png) <br/> *ECAPA-TDNN Cross-Lingual Speaker Verification* | ![Application Icon](frontend/assets/app_icon.png) <br/> *Salt & Pepper Forensic Suite Branding* |
+| ![Biometric Speaker Verification](frontend/assets/Voice_dashboard.png) <br/> *ECAPA-TDNN Cross-Lingual Speaker Verification* | ![Application Icon](frontend/assets/app_icon.png) <br/> *Salt & Pepper Forensic Suite Logo* |
 
 ---
 
