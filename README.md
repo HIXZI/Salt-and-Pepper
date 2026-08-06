@@ -3,7 +3,7 @@
 [![Python Version](https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python&logoColor=white)](https://www.python.org/)
 [![UI Framework](https://img.shields.io/badge/UI-Flet%20%2F%20Flutter-02569B?logo=flutter&logoColor=white)](https://flet.dev/)
 [![Backend Engine](https://img.shields.io/badge/Backend-FastAPI-009688?logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)
-[![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?logo=pytorch&logoColor=white)](https://pytorch.org/)
+[![PyTorch](https://img.shields.io/badge/Deep%20Learning-PyTorch-DE7E5D?logo=pytorch&logoColor=white)](https://pytorch.org/)
 [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Transformers-FFD21E)](https://huggingface.co/)
 [![SpeechBrain](https://img.shields.io/badge/SpeechBrain-ECAPA--TDNN-FF6F00)](https://speechbrain.github.io/)
 [![OpenAI Whisper](https://img.shields.io/badge/ASR-OpenAI%20Whisper-412991?logo=openai&logoColor=white)](https://github.com/openai/whisper)
