@@ -19,13 +19,15 @@
 
 ## 🌟 Key Features
 
-- 🧠 **AI Voice & Deepfake Detection**: Employs state-of-the-art Hugging Face Audio Classification transformers (`mo-thecreator/Deepfake-audio-detection`) alongside sliding window temporal analysis to chart synthetic spoof intensity over time.
-- 🗣️ **Speaker Identity Verification (Voice Biometrics)**: Leverages SpeechBrain's **ECAPA-TDNN** neural network trained on VoxCeleb to extract 192-dimensional vocal tract *x-vector* embeddings for zero-shot, cross-lingual speaker matching.
-- ⚡ **Electric Network Frequency (ENF) Profiling**: Tracks 50 Hz / 60 Hz mains power grid micro-fluctuations in audio recordings to pinpoint physical splicing jumps or identify flat, synthetic AI sine wave signatures.
-- 🔍 **Hexadecimal & Metadata Forensics**: Inspects raw magic byte signatures to detect file extension spoofing (e.g., MP3 renamed to WAV) and parses embedded ID3/RIFF metadata tags.
-- 📜 **Local Offline Speech-to-Text & NLP Scanning**: Utilizes a local `openai/whisper-tiny` ASR engine running entirely on CPU to transcribe speech and audit normalized text against suspicious fraud watchlists without external cloud dependencies.
-- 📄 **Court-Admissible PDF Reports**: Automatically generates cryptographically signed PDF forensic reports bound with SHA-256 chain-of-custody evidence seals.
-- 🖥️ **Modern Desktop GUI**: Built on Flet (Flutter for Python) with a high-contrast dark theme optimized for low-light investigative environments.
+- 🤖 **Production AI Deepfake Detection**: Employs the pre-trained Hugging Face transformer **`mo-thecreator/Deepfake-audio-detection`** (AutoModelForAudioClassification) utilizing dynamic `id2label` resample alignment, Log-Likelihood Ratio (LLR) scoring, sliding temporal segmentation (3.0s window, 1.0s stride), and a **65.0% mobile compression threshold** filter.
+- 📊 **Custom Offline ML Benchmark Classifier (`KM-GBC`)**: Maintains a localized **KM-GBC** (Gradient Boosting Classifier) benchmark pipeline trained on a 96-dimensional acoustic fingerprint (40 MFCCs, 40 Deltas, 12 Chroma STFTs, 1 Centroid, 1 ZCR, 1 RMS, 1 Rolloff) with 300 estimators, max depth 4, learning rate 0.05, and subsample 0.8.
+- 🇵🇰 **Proprietary Urdu Field Survey Dataset**: Integrated support for a custom benchmark dataset of **530+ local smartphone audio recordings** captured across noisy regional Pakistani environments, training `KM-GBC` to distinguish local dialects and low-cost microphone compression from AI fakes.
+- 🗣️ **Deep Neural Speaker Verification (Voice Biometrics)**: Powered by SpeechBrain's **ECAPA-TDNN** architecture (`spkrec-ecapa-voxceleb`) to extract 192-dimensional vocal tract *x-vector* embeddings, evaluating speaker identity via Cosine Similarity with an elevated **0.45 forensic match threshold** and a **< 2.0s short audio penalty safeguard**.
+- 📜 **Local Offline Speech-to-Text & NLP Audit**: Integrates a lazy-loaded `openai/whisper-tiny` ASR engine executing locally on CPU via `safe_load_audio` mono 16kHz memory buffers to transcribe speech and audit transcripts against normalized fraud watchlists (`WATCHLIST` & `SUSPICIOUS_PATTERNS`).
+- ⚡ **Electric Network Frequency (ENF) Profiling**: Tracks 50 Hz / 60 Hz mains power grid micro-fluctuations to pinpoint physical audio splicing jumps or detect mathematically flat, synthetic AI sine wave signatures.
+- 🔍 **Hexadecimal & Metadata Forensics**: Inspects raw magic byte signatures to detect file extension spoofing (e.g., MP3 renamed to WAV) and extracts embedded ID3/RIFF metadata tags.
+- 📄 **Court-Admissible PDF Reports**: Automatically compiles cryptographically signed PDF forensic reports bound with SHA-256 chain-of-custody seals.
+- 🖥️ **Modern Desktop GUI**: Built on Flet (Flutter for Python) with a high-contrast dark theme designed for low-light forensic workstations.
 
 ---
 
