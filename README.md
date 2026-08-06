@@ -1,9 +1,17 @@
 #  Salt & Pepper: Digital Audio Forensic Suite
 
-[![Python Version](https://img.shields.io/badge/python-3.10%2B-blue.svg)](https://www.python.org/)
-[![Framework](https://img.shields.io/badge/UI-Flet%20%2F%20Flutter-02569B.svg)](https://flet.dev/)
-[![Backend](https://img.shields.io/badge/Backend-FastAPI-009688.svg)](https://fastapi.tiangolo.com/)
-[![License](https://img.shields.io/badge/license-Proprietary-red.svg)](LICENSE.txt)
+[![Python Version](https://img.shields.io/badge/Python-3.10%2B-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
+[![UI Framework](https://img.shields.io/badge/UI-Flet%20%2F%20Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)](https://flet.dev/)
+[![Backend Engine](https://img.shields.io/badge/Backend-FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)
+[![PyTorch](https://img.shields.io/badge/Deep%20Learning-PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)](https://pytorch.org/)
+[![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Transformers-FFD21E?style=for-the-badge)](https://huggingface.co/)
+[![SpeechBrain](https://img.shields.io/badge/Voice%20Biometrics-SpeechBrain%20ECAPA--TDNN-FF6F00?style=for-the-badge)](https://speechbrain.github.io/)
+[![OpenAI Whisper](https://img.shields.io/badge/ASR-OpenAI%20Whisper-412991?style=for-the-badge&logo=openai&logoColor=white)](https://github.com/openai/whisper)
+[![Audio DSP](https://img.shields.io/badge/Audio%20DSP-Librosa-9B51E0?style=for-the-badge)](https://librosa.org/)
+[![Database](https://img.shields.io/badge/Database-SQLite3-003B57?style=for-the-badge&logo=sqlite&logoColor=white)](https://www.sqlite.org/)
+[![Security](https://img.shields.io/badge/Security-SHA--256%20Seal-success?style=for-the-badge)](https://en.wikipedia.org/wiki/SHA-2)
+[![Platform](https://img.shields.io/badge/Platform-Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)](https://www.microsoft.com/windows)
+[![License](https://img.shields.io/badge/License-Proprietary-red?style=for-the-badge)](LICENSE.txt)
 
 **Salt & Pepper** is an advanced, integrated digital audio forensic suite designed for legal experts, law enforcement agencies, and forensic investigators. It provides a unified desktop interface to evaluate audio authenticity, detect AI deepfakes/voice clones, verify speaker identities, profile Electric Network Frequency (ENF) grid hums, inspect binary hex metadata, and generate court-admissible PDF forensic reports.
 
