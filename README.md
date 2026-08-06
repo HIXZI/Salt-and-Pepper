@@ -212,9 +212,11 @@ UPLOAD_DIR=data/samples/
 
 ## 👤 Author
 
-- **Muhammad Salman Jawed**  
-  *Lahore Garrison University*  
-  *Final Year Project (FYP)*
+- **Muhammad Salman Jawed**
+[![Website](https://img.shields.io/badge/Website-Personal%20Portfolio-000000?logo=googlechrome&logoColor=white)](https://hixzi.github.io/Portfolio/)
+[![GitHub](https://img.shields.io/badge/GitHub-Profile-181717?logo=github&logoColor=white)](https://github.com/HIIXZI)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?logo=linkedin&logoColor=white)](https://linkedin.com/in/hixzi)
+[![Email](https://img.shields.io/badge/Email-Contact%20Me-D14836?logo=gmail&logoColor=white)](mailto:salmanjawed2001@gmail.com)
 
 ---
 
