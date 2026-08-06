@@ -216,10 +216,10 @@ UPLOAD_DIR=data/samples/
 *Department of Digital Forensics and Research Center (DFRSC)*
 
  <p align="left">
-   <a href="https://your-website.com"><img src="https://img.shields.io/badge/Website-Personal%20Portfolio-000000?logo=googlechrome&logoColor=white" alt="Website"/> </a>
-   <a href="https://github.com/your-username"><img src="https://img.shields.io/badge/GitHub-Profile-181717?logo=github&logoColor=white" alt="GitHub"/></a>
-   <a href="https://linkedin.com/in/your-profile"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?logo=linkedin&logoColor=white" alt="LinkedIn"/>  </a>
-   <a href="mailto:your-email@example.com"><img src="https://img.shields.io/badge/Email-Contact%20Me-D14836?logo=gmail&logoColor=white" alt="Email"/></a>
+   <a href="https://hixzi.github.io/Portfolio/"><img src="https://img.shields.io/badge/Website-Personal%20Portfolio-000000?logo=googlechrome&logoColor=white" alt="Website"/> </a>
+   <a href="https://github.com/HIXZI"><img src="https://img.shields.io/badge/GitHub-Profile-181717?logo=github&logoColor=white" alt="GitHub"/></a>
+   <a href="https://linkedin.com/in/hixzi"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?logo=linkedin&logoColor=white" alt="LinkedIn"/>  </a>
+   <a href="mailto:salmanjawed2001@gmail.com"><img src="https://img.shields.io/badge/Email-Contact%20Me-D14836?logo=gmail&logoColor=white" alt="Email"/></a>
  </p>
 
 ---
