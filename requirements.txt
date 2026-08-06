@@ -1,0 +1,29 @@
+fastapi
+uvicorn[standard]
+flet>=0.21.0
+flet-charts
+mutagen
+librosa
+pydub
+scikit-learn
+sqlalchemy
+python-multipart
+pydantic-settings
+spacy
+scipy
+numpy
+joblib
+fpdf2
+requests
+
+# CPU-Optimized Deep Learning Backend
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch
+torchaudio
+speechbrain
+transformers
+onnxruntime
+
+# Security & Database 
+bcrypt
+PyJWT
