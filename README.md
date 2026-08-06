@@ -68,12 +68,12 @@ S&P/
 │   │   ├── db.py                # SQLAlchemy engine & session management
 │   │   └── models.py            # Relational database ORM schemas
 │   └── services/
-│       ├── ai_detection.py      # Deepfake classification & LLR scoring
-│       ├── enf_profiling.py     # ENF downsampling & STFT variance analysis
-│       ├── fingerprint.py       # Acoustic fingerprinting & pitch extraction
-│       ├── forensics.py         # Hex magic bytes & Whisper STT scanning
-│       ├── reporting.py         # Automated PDF report compiler
-│       └── speaker_verification.py # ECAPA-TDNN voice matching engine
+│       ├── ai_detection.py             # Deepfake classification & LLR scoring
+│       ├── enf_profiling.py            # ENF downsampling & STFT variance analysis
+│       ├── fingerprint.py              # Acoustic fingerprinting & pitch extraction
+│       ├── forensics.py                # Hex magic bytes & Whisper STT scanning
+│       ├── reporting.py                # Automated PDF report compiler
+│       └── speaker_verification.py     # ECAPA-TDNN voice matching engine
 ├── frontend/
 │   ├── assets/                  # App branding & iconography
 │   ├── api_client.py            # Asynchronous HTTP API wrapper
@@ -99,7 +99,7 @@ S&P/
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/your-username/salt-and-pepper.git
+git clone https://github.com/HIXZI/salt-and-pepper.git
 cd salt-and-pepper
 ```
 
