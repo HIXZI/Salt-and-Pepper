@@ -36,7 +36,7 @@
 Salt & Pepper strictly isolates presentation graphics from heavy deep learning and digital signal processing (DSP) workloads through a decoupled client-server model:
 
 <p align="center">
-  <img src="frontend/assets/flowchart.png" alt="System Architecture Diagram" width="70%"/>
+  <img src="frontend/assets/flowchart.png" alt="System Architecture Diagram" width="100%"/>
 </p>
 
 ---
