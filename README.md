@@ -256,10 +256,10 @@ The suite integrates <code>safe_load_audio</code> via Librosa and dynamic fallba
 *Department of Digital Forensics and Research Center (DFRSC)*
 
 <p align="left">
-  <a href="https://hixzi.github.io/Portfolio/" style="text-decoration:none;"><img src="https://img.shields.io/badge/Website-Personal%20Portfolio-000000?logo=googlechrome&logoColor=white" alt="Website"/></a>&nbsp;
-  <a href="https://github.com/HIXZI" style="text-decoration:none;"><img src="https://img.shields.io/badge/GitHub-Profile-181717?logo=github&logoColor=white" alt="GitHub"/></a>&nbsp;
+  <a href="https://hixzi.github.io/Portfolio/" style="text-decoration:none;"><img src="https://img.shields.io/badge/Website-Personal%20Portfolio-228B22?logo=googlechrome&logoColor=white" alt="Website"/></a>&nbsp;
+  <a href="https://github.com/HIXZI" style="text-decoration:none;"><img src="https://img.shields.io/badge/GitHub-Profile-BE5103?logo=github&logoColor=white" alt="GitHub"/></a>&nbsp;
   <a href="https://linkedin.com/in/hixzi" style="text-decoration:none;"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?logo=linkedin&logoColor=white" alt="LinkedIn"/></a>&nbsp;
-  <a href="mailto:salmanjawed2001@gmail.com" style="text-decoration:none;"><img src="https://img.shields.io/badge/Email-Contact%20Me-D14836?logo=gmail&logoColor=white" alt="Email"/></a>
+  <a href="mailto:salmanjawed2001@gmail.com" style="text-decoration:none;"><img src="https://img.shields.io/badge/Email-Contact%20Me-990012?logo=gmail&logoColor=white" alt="Email"/></a>
 </p>
 
 ---
