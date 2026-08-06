@@ -35,54 +35,12 @@
 
 Salt & Pepper strictly isolates presentation graphics from heavy deep learning and digital signal processing (DSP) workloads through a decoupled client-server model:
 
-```mermaid
-graph TD
-    subgraph Client ["Desktop Presentation Layer"]
-        UI["Flet Desktop GUI (Flutter for Python)<br/><i>Interactive Dashboard, Tabs & Timeline Charts</i>"]
-        State["Shared Application State Store"]
-        ClientAPI["Asynchronous API Client"]
-    end
+<p align="center">
+  <img src="frontend/assets/flowchart.png" alt="System Architecture Diagram" width="70%"/>
+</p>
 
-    subgraph Gateway ["Security & Router Gateway"]
-        Router["FastAPI REST Router Gateway"]
-        Auth["JWT Gatekeeper (HS256 Authorization)"]
-        Tenant["Multi-Tenant Isolation Dependency"]
-    end
+---
 
-    subgraph Core ["Concurrency Handler"]
-        Queue["FastAPI BackgroundTasks Queue"]
-        Workers["ThreadPoolExecutor Workers (max_workers=5)"]
-    end
-
-    subgraph Engines ["Heavy Forensic Engines"]
-        Hex["Hex Magic Bytes & Metadata Scan"]
-        Whisper["ASR Engine (OpenAI Whisper-tiny)"]
-        ENF["ENF Profiler (Downsampling & STFT)"]
-        Deepfake["Deepfake Classifier (Hugging Face Transformer)"]
-        Speaker["Voice Matching (SpeechBrain ECAPA-TDNN)"]
-    end
-
-    subgraph Storage ["Storage Layer"]
-        DB[("SQLite Database<br/>(audio_forensics.db)")]
-        Vault["Evidence Vault & PDF Reports"]
-    end
-
-    UI --> ClientAPI
-    ClientAPI -- "REST API (HTTP + JWT Tokens)" --> Router
-    Router --> Auth
-    Auth --> Tenant
-    Tenant --> Queue
-    Queue --> Workers
-
-    Workers --> Hex
-    Workers --> Whisper
-    Workers --> ENF
-    Workers --> Deepfake
-    Workers --> Speaker
-
-    Hex & Whisper & ENF & Deepfake & Speaker --> DB
-    Hex & Whisper & ENF & Deepfake & Speaker --> Vault
-```
 ## 📊 Model Evaluation & Benchmark Metrics
 
 Salt & Pepper evaluates deepfake audio authenticity through both production deep learning transformers and a custom baseline classifier (**KM-GBC**). The benchmark pipeline was evaluated across **10,000 balanced audio samples** (5,000 Organic vs. 5,000 Synthetic) utilizing 5-Fold Stratified Cross-Validation:
