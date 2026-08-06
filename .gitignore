@@ -1,0 +1,53 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# Environment & Secret variables
+.env
+.env.local
+.env.*.local
+
+# Databases & Local State
+*.db
+*.sqlite
+*.sqlite3
+audio_forensics.db
+
+# Dynamic Evidence Vault & Generated PDFs
+data/samples/*
+!data/samples/.gitkeep
+data/reports/*
+!data/reports/.gitkeep
+
+# Large Pre-trained Model Weights Cache
+data/pretrained_models/*
+!data/pretrained_models/.gitkeep
+
+# IDEs & Editors
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Logs & Temporary Files
+*.log
+scratch/
+CD_Backup/
+
+# Build & Packaging
+build/
+dist/
+*.egg-info/
